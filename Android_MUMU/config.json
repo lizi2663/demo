@@ -1,0 +1,30 @@
+{
+  "memu": {
+    "executable_path": "",
+    "startup_timeout": 30,
+    "window_title": "MEmu"
+  },
+  "automation": {
+    "video_watch_time": 5,
+    "scroll_duration": 0.5,
+    "interaction_delay": 1,
+    "like_probability": 0.3,
+    "follow_probability": 0.1,
+    "max_videos": 20
+  },
+  "image_recognition": {
+    "confidence_threshold": 0.8,
+    "template_timeout": 30,
+    "template_directory": "templates"
+  },
+  "safety": {
+    "enable_failsafe": true,
+    "pause_between_actions": 1,
+    "max_retries": 3
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "automation.log",
+    "max_size_mb": 10
+  }
+}
